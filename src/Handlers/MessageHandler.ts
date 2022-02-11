@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `Thanks for waiting, Darling !! 💖w💖 Let's continue, shall we ?.. where we were again ?? (t-ehe)`;
+    const text = `🎇BACK TO BUSINESS!!🎇 (t-ehe)`;
     await this.client.sendMessage(
       "120363041185314873@g.us",
       text,
