@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://wallpapercave.com/wp/wp9999384.jpg" alt="chitoge" border="0"></a>
+<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://wallpapercave.com/uwp/uwp1997564.jpeg" alt="chitoge" border="0"></a>
 
 # **Lumine : A WhatsApp BOT WITH RICH BOTTO FEATURES**
 
