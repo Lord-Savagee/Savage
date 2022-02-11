@@ -1,0 +1,109 @@
+{
+    "marryJson": [
+        {
+            "id": 0,
+            "shipPercent": "0",
+            "gifLink": "https://c.tenor.com/Sf0xo-tTRQ0AAAAi/anime-manga.gif"
+        },
+        {
+            "id": 1,
+            "shipPercent": "5",
+            "gifLink": "https://c.tenor.com/Sf0xo-tTRQ0AAAAi/anime-manga.gif"
+        },
+        {
+            "id": 2,
+            "shipPercent": "10",
+            "gifLink": "https://c.tenor.com/Sf0xo-tTRQ0AAAAi/anime-manga.gif"
+        },
+        {
+            "id": 3,
+            "shipPercent": "15",
+            "gifLink": "https://c.tenor.com/lWwk7j4-_QIAAAAC/oreimo-anime.gif"
+        },
+        {
+            "id": 4,
+            "shipPercent": "20",
+            "gifLink": "https://c.tenor.com/lWwk7j4-_QIAAAAC/oreimo-anime.gif"
+        },
+        {
+            "id": 5,
+            "shipPercent": "25",
+            "gifLink": "https://c.tenor.com/lWwk7j4-_QIAAAAC/oreimo-anime.gif"
+        },
+        {
+            "id": 6,
+            "shipPercent": "30",
+            "gifLink": "https://c.tenor.com/lWwk7j4-_QIAAAAC/oreimo-anime.gif"
+        },
+        {
+            "id": 7,
+            "shipPercentt": "35",
+            "gifLink": "https://c.tenor.com/HBkvvTr5_ksAAAAC/anime.gif"
+        },
+        {
+            "id": 8,
+            "shipPercent": "40",
+            "gifLink": "https://c.tenor.com/HBkvvTr5_ksAAAAC/anime.gif"
+        },
+        {
+            "id": 9,
+            "shipPercent": "45",
+            "gifLink": "https://c.tenor.com/HBkvvTr5_ksAAAAC/anime.gif"
+        },
+        {
+            "id": 10,
+            "shipPercent": "50",
+            "gifLink": "https://c.tenor.com/HBkvvTr5_ksAAAAC/anime.gif"
+        },
+        {
+            "id": 11,
+            "shipPercent": "55",
+            "gifLink": "https://c.tenor.com/R_ysqay1QkoAAAAC/anineogray-wedding.gif"
+        },
+        {
+            "id": 12,
+            "shipPercent": "60",
+            "gifLink": "https://c.tenor.com/R_ysqay1QkoAAAAC/anineogray-wedding.gif"
+        },
+        {
+            "id": 13,
+            "shipPercent": "65",
+            "gifLink": "https://c.tenor.com/R_ysqay1QkoAAAAC/anineogray-wedding.gif"
+        },
+        {
+            "id": 14,
+            "shipPercent": "70",
+            "gifLink": "https://c.tenor.com/DKFXyBzqb9IAAAAC/love-stage-wedding.gif"
+        },
+        {
+            "id": 15,
+            "shipPercent": "75",
+            "gifLink": "https://c.tenor.com/DKFXyBzqb9IAAAAC/love-stage-wedding.gif"
+        },
+        {
+            "id": 16,
+            "shipPercent": "80",
+            "gifLink": "https://c.tenor.com/JioZKGpv6fAAAAAM/hyouka-chitanda-eru.gif"
+        },
+        {
+            "id": 17,
+            "shipPercent": "85",
+            "gifLink": "https://c.tenor.com/W4Voi07VHcsAAAAC/anime-josee.gif"
+        },
+        {
+            "id": 18,
+            "shipPercent": "90",
+            "gifLink": "https://c.tenor.com/If1oqh_gE0kAAAAC/anime-wedding.gif"
+        },
+        {
+            "id": 19,
+            "shipPercent": "95",
+            "gifLink": "https://c.tenor.com/If1oqh_gE0kAAAAC/anime-wedding.gif"
+        },
+        {
+            "id": 20,
+            "shipPercent": "100",
+            "gifLink": "https://c.tenor.com/If1oqh_gE0kAAAAC/anime-wedding.gif"
+        }
+    ]
+}
