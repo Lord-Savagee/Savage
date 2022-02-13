@@ -44,7 +44,8 @@ export default class Command extends BaseCommand {
       const text = `🎆_*BEYOND*_🎆\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
       this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
         caption: `${text}`,
-        contextInfo: {},
+        contextInfo: {	mentionedJid: M.groupMetadata?.participants.map((user) => user.jid),
+				},
       });
     }
     await M.reply(`✅ Broadcast Message sent to *${chats.length} groups*.`);
