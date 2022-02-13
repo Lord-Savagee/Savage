@@ -343,7 +343,7 @@ export default class WAClient extends Base {
     text += `💛 *Source: ${source[0].anime.title}*\n\n`;
     text += `❤ *Description:* ${haigusha.about}`;
     const media = await this.prepareMessage(
-      M.from,
+      jid,
       i,
       MessageType.image
     );
