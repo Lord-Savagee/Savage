@@ -101,8 +101,3 @@ for more information.
 ## 🎗Help
 
 Please give this repo a ⭐ if it helped you.
-
-  </a>&nbsp;&nbsp;
-
-   <a
-
