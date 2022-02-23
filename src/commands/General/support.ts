@@ -1,37 +1,34 @@
-import { MessageType, Mimetype } from '@adiwajshing/baileys'
-import MessageHandler from '../../Handlers/MessageHandler'
-import BaseCommand from '../../lib/BaseCommand'
-import WAClient from '../../lib/WAClient'
-import { ISimplifiedMessage } from '../../typings'
+import { MessageType, Mimetype } from "@adiwajshing/baileys";
+import MessageHandler from "../../Handlers/MessageHandler";
+import BaseCommand from "../../lib/BaseCommand";
+import WAClient from "../../lib/WAClient";
+import { ISimplifiedMessage } from "../../typings";
 
 export default class Command extends BaseCommand {
-    constructor(client: WAClient, handler: MessageHandler) {
-        super(client, handler, {
-            command: 'support',
-            aliases: ['support'],
-            description: 'Gets the support group links',
-            category: 'general',
-            usage: `${client.config.prefix}Support`,
-            baseXp: 10
-        })
-    }
+  constructor(client: WAClient, handler: MessageHandler) {
+    super(client, handler, {
+      command: "support",
+      aliases: ["support"],
+      description: "Gets the support group links",
+      category: "general",
+      usage: `${client.config.prefix}Support`,
+      baseXp: 10,
+    });
+  }
 
-    run = async (M: ISimplifiedMessage): Promise<void> => {
-        (await this.client.sendMessage(
-        M.sender.jid,
-                `*📮𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽𝘀*\n\n
-                 *「ֆAƤƤꫝɨ℟E: RE🈲」*:https://chat.whatsapp.com/IvGNhMR6DclEDK0WY9St3r\n\n
-                 *「𝗦𝗮𝗽𝗽𝗵𝗶𝗿𝗲: 𝗖𝗮𝘀𝗶𝗻𝗼💰」*:https://chat.whatsapp.com/Bxjat9sqPhlDJ7DpP7EW1b                      `,
-           MessageType.text
-        ))
-        const n = [
-            './assets/Rin/rin-2.mp4'
-        ]
-        let rin = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
-            mimetype: Mimetype.gif,
-            caption: `Regarding this, I have sent you a personal message in your DM📪\n` }
-        )
+  run = async (M: ISimplifiedMessage): Promise<void> => {
+    await this.client.sendMessage(
+      M.sender.jid,
+      ` _*I'M FROM BEYOND 🎆*\n\n
+        _*BEYOND NEWS*_:https://chat.whatsapp.com/KcjW4C4Zl46L1ECpot1FeO\n\n 
+        _*WELCOME TO BEYOND*_:https://chat.whatsapp.com/HGH0SFq4w0B6IgSWJkgtt5\n\n
+        _*BEYOND CASINO*_:https://chat.whatsapp.com/EmfhxmgQhNfIUxiE8NHCvq\n\n 
+        _*BEYOND NSFW*_:https://chat.whatsapp.com/GSK6jAz783L107yJrjeV71
+        _*BEYOND QUIZ*_:https://chat.whatsapp.com/F6gqHxiHImD1vi5oc3ExBf`,
 
-        }
+      MessageType.text
+    );
+
+    return void M.reply("Sent you the Group Link in personal message");
+  };
 }
