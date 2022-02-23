@@ -44,9 +44,9 @@ export default class Command extends BaseCommand {
           categories[info.config.category].push(info);
         }
       }
-      let text = `🎉Hi There *@${
+      let text = `🎉𝖧𝗂 𝗍𝗁𝖾𝗋𝖾 *@${
         user.split("@")[0]
-      }*, I'm _*${this.client.user.name}*_.\n\nMy prefix is - "${
+      }*, 𝖨'𝗆' _*${this.client.user.name}*_ 𝖺 𝖻𝗈𝗍 𝖻𝗎𝗂𝗅𝗍 𝗍𝗈 𝗆𝖺𝗄𝖾 𝗒𝗈𝗎𝗋 𝖶𝗁𝖺𝗍𝗌𝖠𝗉𝗉 𝖾𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾 𝗆𝗈𝗋𝖾 𝖿𝗎𝗇.\n\n𝖬𝗒 𝗉𝗋𝖾𝖿𝗂𝗑 𝗂𝗌 - "${
         this.client.config.prefix
       }"\n\nThe usable commands are listed below.\n\n`;
       const keys = Object.keys(categories);
@@ -245,7 +245,7 @@ export default class Command extends BaseCommand {
       }
       const button: any = {
         buttonText: "Command List",
-        footerText: "🎇 Beyond 🎇",
+        footerText: "©𝖠𝗌𝗎𝗇𝖺 2022",
         description: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`,
         sections: sections,
         listType: 1,
