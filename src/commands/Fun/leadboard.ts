@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
     //   M.reply(JSON.stringify(lb));
 
     // M.reply('total user heuhue :'+indexes.toString())
-    const message = ["_*BEYOND*_ :" + indexes.toString() + ""];
+    const message = ["*ASUNA BOTTO* :" + indexes.toString() + ""];
     const mention = [];
     let i = 0;
     for (const users of lb) {
@@ -46,12 +46,12 @@ export default class Command extends BaseCommand {
         ? this.client.contacts[users.jid].short
         : `@${users.jid.split("@")[0]}`;
 
-      const text = `*#${i}*\n*🎆USER* : *${username}*\n*🎊 Experience*: *${users.Xp}*\n*🏦 Bank*: *${users.bank}*\n*🪙 Gold* : *${users.wallet}*\n♦️ *Pokemons: ${users.pokemons.length}*\n🎗 *Characters: ${users.gallery.length}*\n 🍀 *Quiz Points: ${users.quizPoints}*\n`;
+      const text = `*#${i}*\n*🏮USER* : *${username}*\n*🎊 Experience*: *${users.Xp}*\n*🏦 Bank*: *${users.bank}*\n*🪙 Gold* : *${users.wallet}*\n♦️ *Pokemons: ${users.pokemons.length}*\n🎗 *Characters: ${users.gallery.length}*\n 🍀 *Quiz Points: ${users.quizPoints}*\n`;
       message.push(text);
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://wallpapercave.com/uwp/uwp1997564.jpeg"),
+      await request.buffer("https://www.linkpicture.com/q/Asunabotto.jpg"),
       MessageType.image,
       undefined,
       mention,
