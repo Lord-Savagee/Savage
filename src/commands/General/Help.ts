@@ -95,14 +95,18 @@ export default class Command extends BaseCommand {
         { title: "quiz", rowId: "rowid2" },
       ];
       const general = [
+        { title: "asuna", rowId: "rowid2" },
+        { title: "amazon", rowId: "rowid2" },
         { title: "admins", rowId: "rowid1" },
         { title: "chat", rowId: "rowid2" },
         { title: "help", rowId: "rowid2" },
         { title: "support", rowId: "rowid2" },
         { title: "hi", rowId: "rowid2" },
         { title: "hg", rowId: "rowid2" },
+        { title: "issa", rowId: "rowid2" },
         { title: "invitelink", rowId: "rowid2" },
         { title: "mods", rowId: "rowid2" },
+        { title: "faq", rowId: "rowid2" },
         { title: "profile", rowId: "rowid2" },
         { title: "exp", rowId: "rowid2" },
         { title: "leaderboard", rowId: "rowid2" },
