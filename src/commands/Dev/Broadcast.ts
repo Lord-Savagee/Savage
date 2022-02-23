@@ -29,8 +29,7 @@ export default class Command extends BaseCommand {
       return void (await M.reply(`Please provide the Broadcast Message.`));
     const term = joined.trim();
     const images = [
-      "https://wallpapercave.com/uwp/uwp1997565.jpeg",
-      "https://wallpapercave.com/uwpt/uwp1997563.jpeg",
+           "https://www.linkpicture.com/q/Asunabotto.jpg",
     ];
     const selected = images[Math.floor(Math.random() * images.length)];
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -41,7 +40,7 @@ export default class Command extends BaseCommand {
       .map((jids) => (jids.includes("g.us") ? jids : null))
       .filter((v) => v);
     for (let i = 0; i < chats.length; i++) {
-      const text = `🎆_*BEYOND*_🎆\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+      const text = `*「𝖠𝗌𝗎𝗇𝖺🚀𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍」*\n\n📪𝗠𝗲𝘀𝘀𝗮𝗴𝗲: ${term}\n\n🪶𝗔𝘂𝘁𝗵𝗼𝗿: *${M.sender.username}*;
       this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
         caption: `${text}`,
         contextInfo: {	mentionedJid: M.groupMetadata?.participants.map((user) => user.jid),
