@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
       command: "answer",
       description: `Answer the last quiz sent by the bot.`,
       aliases: ["ans"],
-      category: "games",
+      category: "fun",
       usage: `${client.config.prefix}answer [your_answer]`,
       baseXp: 0,
     });
@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
     M: ISimplifiedMessage,
     { joined }: IParsedArgs
   ): Promise<void> => {
-    if (M.from !== "120363039941521242@g.us")
+    if (M.from !== "120363022441013121@g.us")
       return void M.reply(
         `You can't use this command here. Use ${this.client.config.prefix}support to get the quiz group link.`
       );

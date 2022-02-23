@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
       command: "quiz",
       description: `Will give you a random anime quiz to answer.`,
       aliases: ["start-quiz"],
-      category: "games",
+      category: "fun",
       usage: `${client.config.prefix}quiz`,
       baseXp: 10,
     });
@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
     M: ISimplifiedMessage,
     { joined }: IParsedArgs
   ): Promise<void> => {
-    if (M.from !== "120363039941521242@g.us")
+    if (M.from !== "120363022441013121@g.us")
       return void M.reply(
         `You can't use this command here. Use ${this.client.config.prefix}support to get the quiz group link.`
       );
