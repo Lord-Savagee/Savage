@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://www.linkpicture.com/q/Asunabotto.jpg' type='image'></a> alt="Asuna" border="0"></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://www.linkpicture.com/q/Asunabotto.jpg' type='image'</a>
 
 
 
