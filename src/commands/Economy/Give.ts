@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
     await this.client.reduceGold(user, amount);
     await this.client.addGold(target!, amount);
     await M.reply(
-      `*@${user.split("@")[0]}* gave *${amount} gold* to *@${
+      `You gave *${amount} gold* to *@${
         target?.split("@")[0]
       }*🎉`,
       MessageType.text,

@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
     if (time - (Date.now() - cd) > 0) {
       const timeLeft = ms(time - (Date.now() - cd));
       return void M.reply(
-        `You have already claimed your daily gold recently. Claim again in *${timeLeft.hours} hour(s), ${timeLeft.minutes} minute(s), ${timeLeft.seconds} second(s)*`
+        `🟨 You claimed your daily gold recently. Claim again in *${timeLeft.hours} hour(s), ${timeLeft.minutes} minute(s), ${timeLeft.seconds} second(s)*`
       );
     }
     await this.client.addGold(user, 1000);

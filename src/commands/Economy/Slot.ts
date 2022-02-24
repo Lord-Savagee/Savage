@@ -137,7 +137,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${p}\n\n🎊 *Jackpot!* You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "©𝖠𝗌𝗎𝗇𝖺 2022",
+        footerText: "© 𝖠𝗌𝗎𝗇𝖺 2022",
         buttons: buttons,
         headerType: 1,
       };
