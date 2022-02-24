@@ -99,8 +99,8 @@ export default class Command extends BaseCommand {
       })();
       return {
         categories,
-        pack: pack[1],
-        author: pack[2] || `${M.sender.username}`,
+        pack: pack[1] || "𝘔𝘺𝘵𝘩𝘪𝘤",
+        author: pack[2] || "İşşa☦",
         quality,
         type: StickerTypes[
           parsedArgs.flags.includes("--crop") ||
