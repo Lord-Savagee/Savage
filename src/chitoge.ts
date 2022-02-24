@@ -113,8 +113,7 @@ db.once("open", () => {
   client.once("open", () => {
     messageHandler.handleState();
     newsHandler.broadcastNews();
-    messageHandler.spawnPokemon();
-    modsChecker.check();
+    messageHandler.spawnPokemon();   
     messageHandler.summonChara();
   });
 });
