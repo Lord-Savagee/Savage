@@ -284,7 +284,7 @@ export default class MessageHandler {
       ];
       const buttonMessage: any = {
         contentText: `*A claimable character Appeared!*\n\n🎀 *Name: ${chara.name}*\n\n💬 *About:* ${chara.about}\n\n📛 *Source: ${source[0].anime.title}*\n\n💰 *Price: ${price}*\n\n*[Use ${this.client.config.prefix}claim to have this character in your gallery]*`,
-        footerText: "©𝖠𝗌𝗎𝗇𝖺 2022",
+        footerText: "© 𝖠𝗌𝗎𝗇𝖺 2022",
         buttons: buttons,
         headerType: 4,
         imageMessage: media?.message?.imageMessage,
