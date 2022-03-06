@@ -53,7 +53,7 @@ export default class Command extends BaseCommand {
     }
     const buttonMessage: any = {
       contentText: `You might want to check your party.`,
-      footerText: "©𝖠𝗌𝗎𝗇𝖺 2022",
+      footerText: "© Elaina 2022",
       buttons: buttons,
       headerType: 1,
     };
