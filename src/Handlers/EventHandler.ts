@@ -53,7 +53,7 @@ export default class EventHandler {
       }
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🎇 Beyond 🎇",
+        footerText: "🍁Elaina 🍁",
         buttons: buttons,
         headerType: 1,
       };
@@ -92,7 +92,7 @@ export default class EventHandler {
 			: event.action === "remove"
 			? `Goodbye *@${
 					event.participants[0].split("@")[0]
-			  }* 👋🏻, we're probably not gonna miss you.`
+			  }* 👋🏻, please don't come back here again .`
 			: `Ara Ara looks like *@${
 					event.participants[0].split("@")[0]
 			  }* got ${this.client.util.capitalize(event.action)}d${
@@ -161,7 +161,7 @@ export default class EventHandler {
         {
           caption: `Goodbye *@${
             event.participants[0].split("@")[0]
-          }* 👋🏻, we're probably not gonna miss you.`,
+          }* 👋🏻, please don't come back here again.`,
           contextInfo,
         }
       ));
