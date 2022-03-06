@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
     if (!audio.url) return;
     M.reply("🚀downloading");
     this.client
-      .sendMessage(M.from, await audio.getBuffer(), MessageType.mp3, {
+      .sendMessage(M.from, await audio.getBuffer(), MessageType.audio, {
         quoted: M.WAMessage,
         contextInfo: {
           externalAdReply: {
