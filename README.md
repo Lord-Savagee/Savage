@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/a23b40418b260a932c5f4.jpg' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/a4aac6c7a5df508fea9a4.jpg' type='image'></a>
 
 
 
-# **Asuna: A WhatsApp BOT WITH RICH BOTTO FEATURES**
+# **Elaina: A WhatsApp BOT WITH RICH BOTTO FEATURES**
 
 
 
