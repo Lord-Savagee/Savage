@@ -101,7 +101,7 @@ export default class Command extends BaseCommand {
           contentText: `Well done. You caught a level ${Level} ${this.client.util.capitalize(
             Name
           )}. It has been transferred to your pc.`,
-          footerText: "🎇 Beyond 🎇",
+          footerText: "🎇 Juice-Bot 🎇",
           buttons: buttons,
           headerType: 1,
         };
