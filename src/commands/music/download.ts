@@ -34,12 +34,12 @@ export default class Command extends BaseCommand {
     if (!audio.url) return;
     M.reply("🚀downloading");
     this.client
-      .sendMessage(M.from, await audio.getBuffer(), MessageType.audio, {
+      .sendMessage(M.from, await audio.getBuffer(), MessageType.mp3, {
         quoted: M.WAMessage,
         contextInfo: {
           externalAdReply: {
             title: videos[0].title.substr(0, 30),
-            body: `author : ${videos[0].author.name.substr(0, 20)}\n𝖠𝗌𝗎𝗇𝖺🚀`,
+            body: `author : ${videos[0].author.name.substr(0, 20)}\nJuice-bot`,
             mediaType: 2,
             thumbnailUrl: `https://i.ytimg.com/vi/${audio.id}/hqdefault.jpg`,
             mediaUrl: audio.url,
