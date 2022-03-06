@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
             mimetype: Mimetype.gif,
             caption: `*━━━❰ FAQ ❱━━━*
 
-📮 *Q1:* How do I add Asuna bot in my group?
+📮 *Q1:* How do I add Elaina bot in my group?
 📑 *A:* Send the group link in the bot's or owner's DM &  it will join.
 ᚖ ────── ✪ ────── ᚖ
 
@@ -44,10 +44,10 @@ export default class Command extends BaseCommand {
 📑 *A:* Calling the bot is at your own pleasure but with consequences thus you will be blocked instantly for calling the bot!
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q6:* Where can I find Asuna bot?
-📑 *A:* Asuna is one of the bots owned by *Sapphire🈲* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
+📮 *Q6:* Where can I find Elaina bot?
+📑 *A:* Asuna is one of the bots owned by *Lord Savage 🈲* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
 ᚖ ────── ✪ ────── ᚖ
-📮 *Q7:* Can you hire a bot from *Sapphire🈲?*
+📮 *Q7:* Can you hire a bot from *Lord Savage 🈲?*
 📑 *A:* Based on the copyrights, we don't hire bots to anyone thus the bots are free to use.
 ᚖ ────── ✪ ────── ᚖ
 
@@ -55,12 +55,12 @@ export default class Command extends BaseCommand {
 📑 *A:* There are two main reasons for that, either the bot is lagging due to data traffic or the bot is inactive.
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q9:* How can I create a bot like Katsushika?
-📑 *A:* You can't deploy a version of Juice-bot thus it's a copy of Ki, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Juice-bot)* here👇
- 🎗 https://github.com/Juice-Kifdo/Juice-bot.
+📮 *Q9:* How can I create a bot like Elaina?
+📑 *A:* You can't deploy a version of Elaina thus it's a copy of Chitoge, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Juice-bot)* here👇
+ 🎗 https://github.com/elaina/lordsavage.
 ᚖ ────── ✪ ────── ᚖ
 
-📮 *Q10:* Is the project or the *Sapphire🈲* group sponsored?
+📮 *Q10:* Is the project or the *Lord Savage 🈲* group sponsored?
 📑 *A:* Of course not, we're not sponsored either way but it could be your own pleasure to do that thus this is a non-profit organization.
 ᚖ ────── ✪ ────── ᚖ` }
         )
