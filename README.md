@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://www.linkpicture.com/q/Asunabotto.jpg' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/a23b40418b260a932c5f4.jpg' type='image'></a>
 
 
 
