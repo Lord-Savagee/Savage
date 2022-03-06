@@ -155,7 +155,7 @@ export default class MessageHandler {
     });
     if (state)
       return void M.reply(
-        `✖ This command is disabled by İşşa.${
+        `✖ This command is disabled${
           state.reason ? ` for ${state.reason}` : ""
         }`
       );
@@ -165,7 +165,7 @@ export default class MessageHandler {
       command.config?.modsOnly &&
       !this.client.config.mods?.includes(M.sender.jid)
     ) {
-      return void M.reply(`Only İşşa & his MODS are allowed to use this command.`);
+      return void M.reply(`Only MODS are allowed to use this command.`);
     }
     if (command.config?.adminOnly && !M.sender.isAdmin)
       return void M.reply(
@@ -284,7 +284,7 @@ export default class MessageHandler {
       ];
       const buttonMessage: any = {
         contentText: `*A claimable character Appeared!*\n\n🎀 *Name: ${chara.name}*\n\n💬 *About:* ${chara.about}\n\n📛 *Source: ${source[0].anime.title}*\n\n💰 *Price: ${price}*\n\n*[Use ${this.client.config.prefix}claim to have this character in your gallery]*`,
-        footerText: "© 𝖠𝗌𝗎𝗇𝖺 2022",
+        footerText: "🎇 Beyond 🎇",
         buttons: buttons,
         headerType: 4,
         imageMessage: media?.message?.imageMessage,
@@ -304,9 +304,9 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `BACK TO BUSINESS (Ha-ha)`;
+    const text = `🎇BACK TO BUSINESS!!🎇 (t-ehe)`;
     await this.client.sendMessage(
-      "120363040300072277@g.us",
+      "120363041185314873@g.us",
       text,
       MessageType.text
     );
@@ -315,7 +315,7 @@ export default class MessageHandler {
   sendReconnectMessage = async (): Promise<void> => {
     const text = `I'm back, Darling !! 💖w💖`;
     await this.client.sendMessage(
-      "120363040300072277@g.us",
+      "120363041185314873@g.us",
       text,
       MessageType.text
     );
