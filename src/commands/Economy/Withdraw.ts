@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
 
     const buttonMessage: any = {
       contentText: `🟩 *You withdrew ${amount} gold from your bank.*`,
-      footerText: "© 𝖠𝗌𝗎𝗇𝖺 2022",
+      footerText: "© Elaina 2022",
       buttons: buttons,
       headerType: 1,
     };
