@@ -56,8 +56,8 @@ export default class Command extends BaseCommand {
 ᚖ ────── ✪ ────── ᚖ
 
 📮 *Q9:* How can I create a bot like Katsushika?
-📑 *A:* You can't deploy a version of Asuna thus it's a copy of BEYOND, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(BEYOND)* here👇
- 🎗 https://github.com/ShineiIchijo/BEYOND.
+📑 *A:* You can't deploy a version of Juice-bot thus it's a copy of Ki, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Juice-bot)* here👇
+ 🎗 https://github.com/Juice-Kifdo/Juice-bot.
 ᚖ ────── ✪ ────── ᚖ
 
 📮 *Q10:* Is the project or the *Sapphire🈲* group sponsored?
