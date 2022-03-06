@@ -20,8 +20,8 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
                 `*📮𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽𝘀*\n\n
-                 *「ֆAƤƤꫝɨ℟E: RE🈲」*:https://chat.whatsapp.com/IvGNhMR6DclEDK0WY9St3r\n\n
-                 *「𝗦𝗮𝗽𝗽𝗵𝗶𝗿𝗲: 𝗖𝗮𝘀𝗶𝗻𝗼💰」*:https://chat.whatsapp.com/Bxjat9sqPhlDJ7DpP7EW1b                      `,
+                 *「Elaina: RE🈲」*:https://chat.whatsapp.com/EOB2UescDz78rTYG4MQWe1\n\n
+                 *「Elaina: 𝗖𝗮𝘀𝗶𝗻𝗼💰」*:https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21                      `,
            MessageType.text
         ))
         const n = [
