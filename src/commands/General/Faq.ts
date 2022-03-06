@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
 ᚖ ────── ✪ ────── ᚖ
 
 📮 *Q6:* Where can I find Elaina bot?
-📑 *A:* Asuna is one of the bots owned by *Lord Savage 🈲* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
+📑 *A:* Elaina is one of the bots owned by *Lord Savage 🈲* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
 ᚖ ────── ✪ ────── ᚖ
 📮 *Q7:* Can you hire a bot from *Lord Savage 🈲?*
 📑 *A:* Based on the copyrights, we don't hire bots to anyone thus the bots are free to use.
@@ -56,7 +56,7 @@ export default class Command extends BaseCommand {
 ᚖ ────── ✪ ────── ᚖ
 
 📮 *Q9:* How can I create a bot like Elaina?
-📑 *A:* You can't deploy a version of Elaina thus it's a copy of Chitoge, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Juice-bot)* here👇
+📑 *A:* You can't deploy a version of Elaina thus it's a copy of Chitoge, edited & added with some commands resulting the bot to be a private source. Therefore, you can deploy the main bot *(Elaina)* here👇
  🎗 https://github.com/elaina/lordsavage.
 ᚖ ────── ✪ ────── ᚖ
 
