@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
      run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
            const n = [
-           'https://telegra.ph/file/908f27c7629a75442effc.jpg'
+           'https://telegra.ph/file/902936dbeec9ee28320e4.jpg'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             let text = `(💙ω💙) konichiws, 👋 *${M.sender.username}*\n\n•I am a *WhatsApp Bot* built to make your WhatsApp experience more fun.\n\n━━❰･Notes📝Side･❱━━\nMy name is *Elaina*.\n\nMy prefix is *${this.client.config.prefix}* and below are the usable commands 👇\n\n1`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `╚━❰✿ ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}✿❱━╝\n• \`\`\`${categories[
+                text += `╚━❰✿${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}✿❱━╝\n• \`\`\`${categories[
                     key
                 ]
                     .map((command) => command.config?.command)
