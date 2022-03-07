@@ -20,12 +20,12 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
                 `*📮𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽𝘀*\n\n
-                 *「Elaina: RE🈲」*:https://chat.whatsapp.com/EOB2UescDz78rTYG4MQWe1\n\n
+                 *「Elaina: RE Events」*:https://chat.whatsapp.com/EOB2UescDz78rTYG4MQWe1\n\n
                  *「Elaina: 𝗖𝗮𝘀𝗶𝗻𝗼💰」*:https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21                      `,
            MessageType.text
         ))
         const n = [
-            './assets/images/yuuki-asuna.jpeg'
+            'https://telegra.ph/file/a94f2f60dc76a7403ad41.jpg'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
