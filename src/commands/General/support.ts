@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
-            caption: `Regarding this, I have sent you a personal message in your DM📪\n` }
+            caption: `Regarding this, Check dm dude I have sent you a personal message in your DM📪\n` }
         )
 
         }
