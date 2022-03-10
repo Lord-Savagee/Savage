@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/db5893e98124b30611b4a.jpg'
+            'https://telegra.ph/file/c1894127580460d188b3b.mp4'
         ]
         let lucy = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: lucy }, MessageType.video, {
