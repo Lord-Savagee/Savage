@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "graffiti",
 			description: `Get text image`,
 			aliases: ["gaf"],
-			category: "Creations",
+			category: "creation",
 			usage: `${client.config.prefix}gaf`,
 			baseXp: 50,
 		});
