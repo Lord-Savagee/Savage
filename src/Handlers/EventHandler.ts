@@ -40,8 +40,8 @@ export default class EventHandler {
           type: 1,
         },
         {
-          buttonId: "info",
-          buttonText: { displayText: `${this.client.config.prefix}info` },
+          buttonId: "faq",
+          buttonText: { displayText: `${this.client.config.prefix}faq` },
           type: 1,
         },
       ];
@@ -53,7 +53,7 @@ export default class EventHandler {
       }
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🍁Elaina 🍁",
+        footerText: "💙 Elaina 💙",
         buttons: buttons,
         headerType: 1,
       };
