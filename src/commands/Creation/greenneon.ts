@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "greenneon",
 			description: `Get text image`,
 			aliases: ["gn"],
-			category: "Creations",
+			category: "creation",
 			usage: `${client.config.prefix}gn`,
 			baseXp: 50,
 		});
