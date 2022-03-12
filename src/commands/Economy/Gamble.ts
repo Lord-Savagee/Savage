@@ -68,8 +68,8 @@ export default class Command extends BaseCommand {
           amount - wallet
         } gold more to gamble with this amount of gold*.`
       );
-    if (amount > 15000)
-      return void M.reply(`🟥 *You can't gamble gold more than 15000.*`);
+    if (amount > 30000)
+      return void M.reply(`🟥 *You can't gamble gold more than 30000.*`);
     if (!directions.includes(luck))
       return void M.reply(
         `🟥 *The direction should be left or right. Example - ${this.client.config.prefix}gamble ${amount} left.*`
