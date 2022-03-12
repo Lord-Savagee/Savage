@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "gem",
 			description: `Get text image`,
 			aliases: ["gem"],
-			category: "Creations",
+			category: "creation",
 			usage: `${client.config.prefix}gem`,
 			baseXp: 50,
 		});
