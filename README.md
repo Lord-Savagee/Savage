@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/a4aac6c7a5df508fea9a4.jpg' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/6777fe4846a3b0af4decd.jpg' type='image'></a>
 
 
 
@@ -71,7 +71,7 @@ Button : If you are deploying and using Railway
 
 -   To view all features, click
 
-    here➡️[lumine-_featuresList.md](https://github.com/BEYOND-THE-WORLD/lumine-/blob/main/Features.md)
+    here➡️[Elaina-_featuresList.md](https://github.com/BEYOND-THE-WORLD/lumine-/blob/main/Features.md)
 
 
 
