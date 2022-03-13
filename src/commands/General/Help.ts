@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
      run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
            const n = [
-           'https://i.pinimg.com/564x/80/c1/99/80c1992c17dc44e8731a6552f81e7c31.jpg'
+           'https://telegra.ph/file/902936dbeec9ee28320e4.jpg'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -35,10 +35,10 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (❤ω❤) Konichiwa! *${M.sender.username}*\n\n•Support me by subscribing My youtube channel⬇️\nhttps://youtube.com/channel/UCIA_gt6ns4hu6k-WQOPRoNQ\n\n━━❰･Notes📮Side･❱━━\n*Read the rules*\n\nMy name is Cara\n\nMy prefix is !\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
+            let text = `*✞︎☠︎︎Hello*✞︎☠︎︎! *${M.sender.username}*\n\n•*╚Note Side╝*\n\n•*I'm 𑁍Elaina𑁍 a bot build to make your WhatsApp enjoyable\n\n━━❰•*Note✞︎☠︎︎𖣘Side*･❱━━\n╚『*Read the rules*』╝\n\nMy name is Elaina✞︎☠︎︎\n\nMy prefix is #\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups to avoid Blocking\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `━━❰•Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•❱━━\n• \`\`\`${categories[
+                text += `╚━❰☠︎︎𝑩𝒐𝒕 ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•𖣘❱━╝\n• \`\`\`${categories[
                     key
                 ]
                     .map((command) => command.config?.command)
