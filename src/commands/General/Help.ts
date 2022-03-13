@@ -46,7 +46,14 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.image, {
 
 
-            caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
+            caption: `${text}
+             ──❅┈[ *☠︎︎✞︎𖣔Elaina☠︎︎✞︎𖣔* ]┈❅───
+┌────────────┈𑁍𖣘
+│   🧨 *𝗵𝗲𝗹𝗹𝗼*
+│    ✞︎☠︎︎*Bang Bang* 𑁍𖣘߷☆✯
+└────────────┈𖣘
+❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
+📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
         const key = parsedArgs.joined.toLowerCase()
