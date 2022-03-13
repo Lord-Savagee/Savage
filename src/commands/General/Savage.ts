@@ -17,14 +17,14 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/images/savage.jpg'
+            'https://telegra.ph/file/6777fe4846a3b0af4decd.jpg'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
-            caption: `Hey Savage!🍃I'm Elaina a learner/student & an upcoming developer in the future.
+            caption: `✞︎𝗵𝗲𝗹𝗹𝗼!🍃I'm Lord Savage 🕊️ a learner/student & an upcoming developer in the future.
             
-📫𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
+🍁𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
 Wa.me/263716928420
 Wa.me/263716564623
 
