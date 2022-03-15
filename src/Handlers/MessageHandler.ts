@@ -160,16 +160,16 @@ export default class MessageHandler {
         }`
       );
     if (!command.config?.dm && M.chat === "dm")
-      return void M.reply("Know Your Place Fool This command can only be used in groups");
+      return void M.reply("Commands cannot be used in direct messages *Sens a message without a prefix to have a chat*");
     if (
       command.config?.modsOnly &&
       !this.client.config.mods?.includes(M.sender.jid)
     ) {
-      return void M.reply(`Know your place Fool Only MODS are allowed to use this command.`);
+      return void M.reply(`𝐨𝐧𝐥𝐲 𝐛𝐞𝐚𝐮𝐭𝐢𝐟𝐮𝐥 𝐩𝐞𝐨𝐩𝐥𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝..`);
     }
     if (command.config?.adminOnly && !M.sender.isAdmin)
       return void M.reply(
-        `This command is only meant for the group admins, Baka!`
+        `Know Your Place Fool This command is only meant for the group admins, Baka!`
       );
     try {
       await command.run(M, this.parseArgs(args));
@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `🍁 Congratulations Elaina Bot has been reconnected back to the server 🍁💙!!💙 (Elaina)`;
+    const text = `💃🍁💙 Congratulations Elaina Bot has been reconnected back to the server 🍁💙!!💙 (Elaina)`;
     await this.client.sendMessage(
       "263716564623-1628429288@g.us",
       text,
