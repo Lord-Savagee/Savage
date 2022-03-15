@@ -77,16 +77,16 @@ export default class Command extends BaseCommand {
     const terms: any = joined.trim().split(" ");
     const amount = terms[0];
     if (isNaN(amount)) return void M.reply(`🟥 *It must be a number*.`);
-    if (amount < 100)
-      return void M.reply(`🟥 *You can't bet gold less than 100.*`);
+    if (amount < 200)
+      return void M.reply(`🟥 *You can't bet gold less than 200.*`);
     if (amount > wallet)
       return void M.reply(
         `🟥 *You need ${
           amount - wallet
         } gold in your wallet to bet with this amount>*`
       );
-    if (amount > 30000)
-      return void M.reply(`🟥 *You can't bet more than 30000 gold*.`);
+    if (amount > 50000)
+      return void M.reply(`🟥 *You can't bet more than 50000 gold*.`);
     const head = `🎰 *SLOT MACHINE* 🎰`;
     const buttons = [
       {
