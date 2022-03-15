@@ -53,7 +53,7 @@ export default class EventHandler {
       }
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "💙 Elaina 💙",
+        footerText: "✞︎☠︎︎ Elaina ✞︎☠︎︎",
         buttons: buttons,
         headerType: 1,
       };
@@ -84,7 +84,7 @@ export default class EventHandler {
     const promote = event.action === "promote";
     const demote = event.action === "demote";
     /*const text = add
-			? `- ${group.subject || "___"} -\n\n💠 *Group Description:*\n${
+			? `- ${group.subject || "___"} -\n\n✞︎☠︎︎ *Group Description:*\n${
 					group.desc
 			  }\n\nHope you follow the rules and have fun!\n\n*‣ ${event.participants
 					.map((jid) => `@${jid.split("@")[0]}`)
@@ -92,7 +92,7 @@ export default class EventHandler {
 			: event.action === "remove"
 			? `Goodbye *@${
 					event.participants[0].split("@")[0]
-			  }* 👋🏻, please don't come back here again .`
+			  }* ✞︎☠︎︎𖣘, please don't come back here again .`
 			: `Ara Ara looks like *@${
 					event.participants[0].split("@")[0]
 			  }* got ${this.client.util.capitalize(event.action)}d${
@@ -126,9 +126,13 @@ export default class EventHandler {
         welcome.toBuffer(),
         MessageType.image,
         {
-          caption: `- ${group.subject || "___"} -\n\n💠 *Group Description:*\n${
+          caption: `- ${group.subject || "___"} -\n\n✞︎☠︎︎ *Group Description:*\n${
             group.desc
-          }\n\nHope you follow the rules and have fun!\n\n*‣ ${event.participants
+          }\n\n💧𝙊𝙬𝙣𝙚𝙧𝙨𝙝𝙞𝙥
+
+𝘊𝘳𝘦𝘢𝘵𝘦𝘥, 𝘱𝘰𝘸𝘦𝘳𝘦𝘥 & 𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘦𝘥 𝘣𝘺 *Lord Savage*
+
+━━❰🦋🕊️!\n\n*‣ ${event.participants
             .map((jid) => `@${jid.split("@")[0]}`)
             .join(", ")}*`,
           contextInfo,
@@ -161,7 +165,7 @@ export default class EventHandler {
         {
           caption: `Goodbye *@${
             event.participants[0].split("@")[0]
-          }* 👋🏻, please don't come back here again.`,
+          }* ✞︎☠︎︎, please don't come back here again.`,
           contextInfo,
         }
       ));
