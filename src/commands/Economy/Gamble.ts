@@ -60,16 +60,16 @@ export default class Command extends BaseCommand {
       return void M.reply(
         `🟥 *Invalid format. Usage Example - ${this.client.config.prefix}gamble 100 left*`
       );
-    if (amount < 100)
-      return void M.reply(`🟥 *You can't gamble gold less than 100.*`);
+    if (amount < 200)
+      return void M.reply(`🟥 *You can't gamble gold less than 200.*`);
     if (amount > wallet)
       return void M.reply(
         `🟥 *You need ${
           amount - wallet
         } gold more to gamble with this amount of gold*.`
       );
-    if (amount > 30000)
-      return void M.reply(`🟥 *You can't gamble gold more than 30000.*`);
+    if (amount > 50000)
+      return void M.reply(`🟥 *You can't gamble gold more than 50000.*`);
     if (!directions.includes(luck))
       return void M.reply(
         `🟥 *The direction should be left or right. Example - ${this.client.config.prefix}gamble ${amount} left.*`
