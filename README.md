@@ -100,3 +100,5 @@ for more information.
 ## 🎗Help
 
 Please give this repo a ⭐ if it helped you.
+
+How to reach the owner https://wa.me/+263716564623
