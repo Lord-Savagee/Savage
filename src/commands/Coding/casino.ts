@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: 'casino',
             aliases: ['support,casino'],
             description: 'Gets the gambling group links',
-            category: 'coding',
+            category: 'extras',
             usage: `${client.config.prefix}casino`,
             baseXp: 10
         })
