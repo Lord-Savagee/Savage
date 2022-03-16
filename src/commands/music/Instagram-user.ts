@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: 'instagramdp',
             aliases: ['instadp', 'igdp'],
             description: 'Get the info of a user and Profile pic from Instagram',
-            category: 'media',
+            category: 'extras',
             dm: true,
             usage: `${client.config.prefix}instagramdp [name]`
         })
