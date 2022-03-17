@@ -5,6 +5,7 @@ import WAClient from "../../lib/WAClient";
 import { IParsedArgs, ISimplifiedMessage } from "../../typings";
 import yts from "yt-search";
 import YT from "../../lib/YT";
+import request from '../../lib/request'
 
 export default class Command extends BaseCommand {
   constructor(client: WAClient, handler: MessageHandler) {
