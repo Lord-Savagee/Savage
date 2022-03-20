@@ -19,12 +19,12 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/621c985f4ca375cfd7df7.mp4','https://telegra.ph/file/38a9538ae1f2387235caf.mp4','https://telegra.ph/file/80381afa72303cdda3eab.mp4'
+            'https://telegra.ph/file/3666b3ce6e95ba3e8e6c4.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `-Creation 🄻🄸🅂🅃💫🧣✨
+            caption: `-Creation 🄻🄸🅂🅃💙🌟
 ──────────────
 🔮 ${this.client.config.prefix}tneon
 🔮 ${this.client.config.prefix}greenneon
@@ -64,7 +64,7 @@ export default class Command extends BaseCommand {
 🔮 ${this.client.config.prefix}magma
 🔮 ${this.client.config.prefix}mgalaxy
 🔮 ${this.client.config.prefix}beach
-💫ENJOY_Made by Lord Savage 🕊️
+💙ENJOY_Made by Lord Savage 🕊️
 ──────────────` }
         )
     }
