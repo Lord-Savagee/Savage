@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
      run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
            const n = [
-           'https://telegra.ph/file/902936dbeec9ee28320e4.jpg'
+           'https://telegra.ph/file/be3e4eeee879b30f8afef.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                      .join(', ')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.image, {
+            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {
 
 
             caption: `${text}
