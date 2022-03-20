@@ -7,8 +7,9 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
+            aliases: ['bye','boom'],
             command: 'remove',
-            description: 'demotes the mentioned users',
+            description: 'removes the mentioned users',
             category: 'moderation',
             usage: `${client.config.prefix}promote [@mention | tag]`,
             baseXp: 10
