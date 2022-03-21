@@ -35,15 +35,15 @@ export default class Command extends BaseCommand {
       );
     }
     const emojis = [
-      "\t\t🌸 : 💮 : 🌸\n》 💮 : ☘ : 💮 《\n\t\t☘ : ☘ : 🌸",
+      "\t\t🌺 : 💮 : 🌸\n》 💮 : ☘ : 💮 《\n\t\t☘ : ☘ : 🌸",
       "\t\t☘ : ☘ : 🌸\n》 💮 : ☘ : 🌸 《\n\t\t🌸 : 💮 : 💮",
-      "\t\t🌸 : 🌸 : ☘\n》 💮 : ☘ : ☘ 《\n\t\t💮 : 💮 : 🌸",
+      "\t\t🌸 : 🌺 : ☘\n》 💮 : ☘ : ☘ 《\n\t\t💮 : 💮 : 🌸",
     ];
     const i = emojis[Math.floor(Math.random() * emojis.length)];
     const Emoji = [
-      "\t\t🌸 : 💮 : 💮\n》 ☘ : ☘ : ☘ 《\n\t\t☘ : 🌸 : 🌸",
+      "\t\t🌸 : 💮 : 🌺\n》 ☘ : ☘ : 🌺 《\n\t\t☘ : 🌸 : 🌸",
       "\t\t☘ : 🌸 : ☘\n》 💮 : 💮 : 💮 《\n\t\t☘ : 🌸 : 🌸",
-      "\t\t💮 : ☘ : 💮\n》 🌸 : 🌸 : 🌸 《\n\t\t💮 : ☘ : ☘",
+      "\t\t🌺 : ☘ : 💮\n》 🌺 : 🌸 : 🌸 《\n\t\t💮 : ☘ : ☘",
     ];
     const o = Emoji[Math.floor(Math.random() * Emoji.length)];
     const jack = [
@@ -56,7 +56,7 @@ export default class Command extends BaseCommand {
       "lose",
       "win",
       "lose",
-      "lose",
+      "win",
       "lose",
       "win",
       "lose",
@@ -128,7 +128,7 @@ export default class Command extends BaseCommand {
       await M.reply(buttonMessage, MessageType.buttonsMessage);
     }
     if (z == "jackpot") {
-      const gold = amount * 10;
+      const gold = amount * 15;
       await this.client.addGold(user, gold);
       await this.client.DB.cd.updateOne(
         { jid: user },
