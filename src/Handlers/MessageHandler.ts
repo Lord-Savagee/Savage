@@ -155,12 +155,12 @@ export default class MessageHandler {
     });
     if (state)
       return void M.reply(
-        `✖ This command is disabled${
+        `✖ Oops This command is disabled${
           state.reason ? ` for ${state.reason}` : ""
         }`
       );
     if (!command.config?.dm && M.chat === "dm")
-      return void M.reply("Commands cannot be used in direct messages *Sens a message without a prefix to have a chat*");
+      return void M.reply("Commands cannot be used in direct messages *Send a message/text without a prefix to have a chat*");
     if (
       command.config?.modsOnly &&
       !this.client.config.mods?.includes(M.sender.jid)
@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `💃🍁💙 Congratulations Elaina Bot has been reconnected back to the server 🍁💙!!💙 (Elaina)`;
+    const text = `Reconnected🚀 (Elaina👾)`;
     await this.client.sendMessage(
       "263716564623-1628429288@g.us",
       text,
