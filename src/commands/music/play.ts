@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
             body: `author : ${videos[0].author.name.substr(
               0,
               20
-            )}\n💙 Lord Savage ❤️`,
+            )}\n🌺 Lord Savage ❤️`,
             mediaType: 2,
             thumbnail: await this.client.getBuffer(
               `https://i.ytimg.com/vi/${audio.id}/hqdefault.jpg`
