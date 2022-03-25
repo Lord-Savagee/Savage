@@ -89,8 +89,8 @@ Button : If you are deploying and using Railway
 
 ## 📄 License
 
-https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/6777fe4846a3b0af4decd.jpg' type='image'></a>
-
+href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/d294e2c082db64f9fcf1f.jpg' type='image'></a>
+Scan this code 
 
 
 
