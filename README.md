@@ -89,10 +89,10 @@ Button : If you are deploying and using Railway
 
 ## 📄 License
 
-https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21
+https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/6777fe4846a3b0af4decd.jpg' type='image'></a>
 
 
-https://telegra.ph/file/a130347b53bbad3fe07d6.jpg
+
 
 
 Distributed under the GNU AFFERO GENERAL PUBLIC License. See [LICENSE](/LICENSE)
