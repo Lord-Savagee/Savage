@@ -64,7 +64,18 @@ export default class Command extends BaseCommand {
 🔮 ${this.client.config.prefix}magma
 🔮 ${this.client.config.prefix}mgalaxy
 🔮 ${this.client.config.prefix}beach
+💙 ${this.client.config.prefix}silvertext
+💙 ${this.client.config.prefix}silvertext
 💙ENJOY_Made by Lord Savage 🕊️
+┌────────────┈❅
+│
+│   💙 *Elaina*
+│
+│   *Lord Savage*🕊️
+│
+└────────────┈⁂
+
+❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 ──────────────` }
         )
     }
