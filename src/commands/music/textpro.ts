@@ -57,15 +57,15 @@ export default class Command extends BaseCommand {
 🔮 ${this.client.config.prefix}captain
 🔮 ${this.client.config.prefix}loveneon
 🔮 ${this.client.config.prefix}advanceglow
-🔮 ${this.client.config.prefix}nsfwkitsune
+🔮 ${this.client.config.prefix}3deepsea
 🔮 ${this.client.config.prefix}graffiti
 🔮 ${this.client.config.prefix}bokeh
 🔮 ${this.client.config.prefix}berry
 🔮 ${this.client.config.prefix}magma
 🔮 ${this.client.config.prefix}mgalaxy
 🔮 ${this.client.config.prefix}beach
-💙 ${this.client.config.prefix}silvertext
-💙 ${this.client.config.prefix}silvertext
+💙 ${this.client.config.prefix}snow
+💙 ${this.client.config.prefix}snowc
 💙ENJOY_Made by Lord Savage 🕊️
 ┌────────────┈❅
 │
