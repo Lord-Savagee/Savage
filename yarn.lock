@@ -6541,15 +6541,16 @@ yargs@^17.2.1:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yt-search@^2.10.2:
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/yt-search/-/yt-search-2.10.2.tgz#57790043b958d3f9e357607b3f3c252ba2314b59"
-  integrity sha512-cwg8yK3pVuwczfoADOqhVHj5i/Qv8xb7/wYh3gwvfGiHsxpgDtMKKuBWyOenrXwwC7A/nj3YQYsfDlZ2/rk83w==
+
+yt-search@^2.10.3:
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/yt-search/-/yt-search-2.10.3.tgz#c90db45e4a960f06ef1bfe7ba13457790ded661e"
+  integrity sha512-msITxMhn+1f3RIlS2R0d5/275grX0nUgaD570Fap3gvPmwfvR9w31JG8B9++4Xtm6BLAzhdITK7kAWRInef8QQ==
   dependencies:
     async.parallellimit "~0.5.2"
     boolstring "~1.0.2"
     cheerio "^1.0.0-rc.10"
-    dasu "~0.4.2"
+    dasu "~0.4.3"
     human-time "0.0.2"
     jsonpath-plus "~5.0.2"
     minimist "~1.2.5"
