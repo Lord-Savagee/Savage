@@ -51,7 +51,7 @@ export default class Command extends BaseCommand {
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://telegra.ph/file/42d4d2932912e24287dc2.jpg","https://telegra.ph/file/c501dcc8daa1ac8777aaf.jpg"),
+      await request.buffer("https://telegra.ph/file/42d4d2932912e24287dc2.jpg"),
       MessageType.image,
       undefined,
       mention,
