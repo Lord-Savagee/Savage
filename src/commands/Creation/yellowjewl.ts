@@ -11,10 +11,10 @@ const w5botapi = require('w5-textmaker');
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "yellowjewl",
+			command: "jewl",
 			description: `Get text image`,
 			category: "creation",
-			usage: `${client.config.prefix}yellowjewl`,
+			usage: `${client.config.prefix}jewl`,
 			baseXp: 50,
 		});
 	}
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
 					MessageType.image,
 					undefined,
 					undefined,
-					`…ᘛ⁐̤ᕐᐷ Here you go.\n`,
+					`🍁 Here you go.\n`,
 					undefined
 				).catch((e) => {
 					console.log(
