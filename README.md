@@ -4,7 +4,7 @@
 
 
 
-# **Elaina: A WhatsApp BOT WITH RICH BOTTO FEATURES**
+# **Test: A WhatsApp BOT WITH RICH BOTTO FEATURES**
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/smokey-vines/shigu)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Toshiro223/shigu)
 
 
 
