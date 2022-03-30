@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
         return void this.client.sendMessage(M.from, { url: lucy }, MessageType.video, {
             quoted: M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `𝙄𝙩'𝙨 𝙩𝙤𝙤 𝙦𝙪𝙞𝙚𝙩 *${M.sender.username}!* 𝙔𝙤𝙪 𝙢𝙚𝙖𝙣 *${this.client.config.prefix}help*? \n` }
+            caption: `𝙄𝙩'𝙨 𝙩𝙤𝙤 𝙦𝙪𝙞𝙚𝙩 *${M.sender.username}!* 𝙔𝙤𝙪 𝙢𝙚𝙖𝙣 🐈*${this.client.config.prefix}help*? \n` }
         )
     }
 }
