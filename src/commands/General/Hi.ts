@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
     ];
 
     const buttonMessage: any = {
-      contentText: `Hello Beautiful 😍, 👾Elaina👾 Bot present here👋`,
-      footerText: "💜 Elaina 💜",
+      contentText: `Hello Beautiful 😍,🅴🅻🅰🅸🅽🅰 Bot present here👋`,
+      footerText: "💜 🅴🅻🅰🅸🅽🅰 💜",
       buttons: buttons,
       headerType: 1,
     };
