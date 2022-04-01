@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: 'playv',
             description: '🎵 play a song with just search term!',
             category: 'media',
-            aliases: ['music', 'song'],
+            aliases: ['video', 'vids'],
             usage: `${client.config.prefix}playv [term]`,
             baseXp: 30
         })
