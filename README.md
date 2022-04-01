@@ -10,13 +10,13 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
-> A Fully Modular and Efficient Bot <br>
+> A Fully Modular and Whatsapp Efficient Bot <br>
 
  Button : If you are deploying normally
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/smokey-vines/Savage)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/union-vines/Savage)
 
 
 
@@ -61,7 +61,7 @@ Button : If you are deploying and using Railway
 
 -   Section Moved to
 
-    [Lumine-Guides](https://github.com/BEYOND-THE-WORLD/Lumine-guides/blob/main/README.md)
+    [Lumine-Guides](https://github.com/Elaina-Lord/Savage-guides/blob/main/README.md)
 
 
 
@@ -71,7 +71,7 @@ Button : If you are deploying and using Railway
 
 -   To view all features, click
 
-    here➡️[Elaina-_featuresList.md](https://github.com/BEYOND-THE-WORLD/lumine-/blob/main/Features.md)
+    here➡️[Elaina-_featuresList.md](https://github.com/Elaina-blob/main/Features.md)
 
 
 
