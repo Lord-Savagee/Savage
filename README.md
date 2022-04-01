@@ -105,4 +105,18 @@ for more information.
 
 Please give this repo a ⭐ if it helped you.
 
-How to reach the owner https://wa.me/+263716564623
+## Elaina
+
+This is a lovely project by Lord Savage 🕊️. After forking give it a star. 🌟 star it. If you need help then click the following Whatsapp icons and join our groups and contact an OWNER 
+
+ 
+
+HOW TO REACH THE OWNER? 👇👇👇
+
+   <a href="https://wa.me/263716564623?text=Hey_Fam%20I%20Am%20From%20GitHub%20☺️">
+
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+  </a>&nbsp;&nbsp;
+
+   <a
