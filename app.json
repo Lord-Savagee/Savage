@@ -1,5 +1,5 @@
 {
-  "name": "ZeroTwo",
+  "name": "Lord-savage",
   "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
       "bot",
@@ -13,7 +13,7 @@
   ],
   "website": "https://github.com/ShinNouzen/Chitoge#readme",
   "repository": "https://github.com/smokey-vines/Savage.git",
-  "logo": "https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
+  "logo": "https://telegra.ph/file/11e741582367e0d63c66f.jpg",
   "success_url": "/",
   "env": {
       "PREFIX": {
