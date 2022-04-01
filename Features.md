@@ -1,6 +1,6 @@
 |Media| usage | 
 |----|--------| 
-|Lyrics| Gives you the lyrics of the given song|
+|Lyrics| Gives you the lyrics of the given songs|
 |Play| Plays the given title|
 |Spotify|  Downloads songs from Spotify| 
 |YouTube video |Downloads video from YouTube| 
