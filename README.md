@@ -115,8 +115,8 @@ HOW TO REACH THE OWNER? 👇👇👇
 
    <a href="https://wa.me/263716564623?text=Hey_Fam%20I%20Am%20From%20GitHub%20☺️">
 
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+ 
 
-  </a>&nbsp;&nbsp;
+  
 
-   <a
+   
