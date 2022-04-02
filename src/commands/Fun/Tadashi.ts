@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'tada',
             description: 'Chat with bot.',
-            aliases: ['tada'],
+            aliases: ['tada','elaina'],
             category: 'fun',
             usage: `${client.config.prefix}tada [city or state name]`
         })
