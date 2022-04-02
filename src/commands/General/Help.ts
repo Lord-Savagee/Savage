@@ -35,10 +35,10 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `*✞︎☠︎︎ᎻᎬᏞᏞᎾ*✞︎☠︎︎! *${M.sender.username}*\n\n•╚『Note✞︎☠︎︎Side』╝\n•*I'm 𑁍ᎬᏞᎪᏆNᎪ𑁍 a bot build to make your WhatsApp enjoyable*\n\n━━❰•Note✞︎☠︎︎𖣘Side･❱━━\n╚『Read the rules』╝\n\nMy name is Elaina✞︎☠︎︎\n\nMy prefix is #\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups to avoid Blocking\n\n`
+            let text = `*✞︎☠︎︎ℍ𝕖𝕝𝕝𝕠*✞︎☠︎︎! *${M.sender.username}*\n\n•╚『🅝🅞🅣🅔 🅢🅘🅓🅔』╝\n•*𝙡'𝙢 𑁍𝙀𝙡𝙖𝙞𝙣𝙖𑁍 𝑨 𝒃𝒐𝒕 𝒄𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝑳𝒐𝒓𝒅 𝑺𝒂𝒗𝒂𝒈𝒆 𝒕𝒐 𝒎𝒂𝒌𝒆 𝒚𝒐𝒖 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝒆𝒏𝒚𝒐𝒚𝒂𝒃𝒍𝒆*\n\n━━❰•Note✞︎☠︎︎𖣘Side･❱━━\n\n╚『𝙍𝙚𝙖𝙙 𝙏𝙝𝙚 𝙍𝙪𝙡𝙚𝙨』╝\n𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 𝑬𝒍𝒂𝒊𝒏𝒂✞︎☠︎︎\n\n🅼🆈 🅿🆁🅴🅵🅸🆇 🅸🆂 #\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups to avoid Blocking\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `╚━❰☠︎︎ᏴᎾᎢ ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•𖣘❱━╝\n• \`\`\`${categories[
+                text += `╚━❰☠︎︎𝑩𝒐𝒕 ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•𖣘❱━╝\n• \`\`\`${categories[
                     key
                 ]
                     .map((command) => command.config?.command)
@@ -54,7 +54,7 @@ export default class Command extends BaseCommand {
 │   💙 *𝗵𝗲𝗹𝗹𝗼*
   🅵🅾🅻🅻🅾🆆 🅱🅾🆃 🅾🆆🅽🅴🆁 🅾🅽 🅸🅶 🅰🆂
   https://instagram.com/_smokey_vines_
-│    ✞︎☠︎︎*Bang Bang* 𑁍𖣘߷☆✯
+│    ✞︎☠︎︎*𝘽𝙖𝙣𝙜 𝘽𝙖𝙣𝙜* 𑁍𖣘߷☆✯
 └────────────┈𖣘
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
