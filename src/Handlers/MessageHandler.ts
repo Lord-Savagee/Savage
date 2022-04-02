@@ -146,16 +146,16 @@ export default class MessageHandler {
       return void null;
     if (!command)
       return void M.reply(
-        `🍁Ahhh shit man you don't know how to type *${this.client.config.prefix}help* well fine in that case you will die here.`
+        `🍁𝑨𝒉𝒉 𝒔𝒉𝒊𝒕 𝒎𝒂𝒏 𝒚𝒐𝒖 𝒅𝒐𝒏'𝒕 𝒌𝒏𝒐𝒘 𝒉𝒐𝒘 𝒕𝒐 𝒕𝒚𝒑𝒆 *${this.client.config.prefix}help* 𝒘𝒆𝒍𝒍 𝒇𝒊𝒏𝒆 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒄𝒂𝒔𝒆 𝒚𝒐𝒖 𝒘𝒊𝒍𝒍 𝒅𝒊𝒆 𝒉𝒆𝒓𝒆.`
       );
     const user = await this.client.getUser(M.sender.jid);
-    if (user.ban) return void M.reply("You're Banned from using commands.");
+    if (user.ban) return void M.reply("𝕐𝕠𝕦'𝕣𝕖 𝕓𝕒𝕟𝕟𝕖𝕕 𝕗𝕣𝕠𝕞 𝕌𝕤𝕚𝕟𝕘 𝕥𝕙𝕖 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤.");
     const state = await this.client.DB.disabledcommands.findOne({
       command: command.config.command,
     });
     if (state)
       return void M.reply(
-        `✖ Oops This command is disabled${
+        `✖ 𝐁𝐚𝐤𝐚! 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐢𝐬 𝐝𝐢𝐬𝐚𝐛𝐥𝐞𝐝${
           state.reason ? ` for ${state.reason}` : ""
         }`
       );
@@ -169,7 +169,7 @@ export default class MessageHandler {
     }
     if (command.config?.adminOnly && !M.sender.isAdmin)
       return void M.reply(
-        `Know Your Place Fool This command is only meant for the group admins, Baka!`
+        `𝙆𝙣𝙤𝙬 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙘𝙚 𝙛𝙤𝙤𝙡 𝙩𝙝𝙞𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙨 𝙤𝙣𝙡𝙮 𝙢𝙚𝙖𝙣𝙩 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙥 𝙖𝙙𝙢𝙞𝙣𝙨, 𝘽𝙖𝙠𝙖!`
       );
     try {
       await command.run(M, this.parseArgs(args));
@@ -284,7 +284,7 @@ export default class MessageHandler {
       ];
       const buttonMessage: any = {
         contentText: `*A claimable character Appeared!*\n\n🎀 *Name: ${chara.name}*\n\n💬 *About:* ${chara.about}\n\n📛 *Source: ${source[0].anime.title}*\n\n💰 *Price: ${price}*\n\n*[Use ${this.client.config.prefix}claim to have this character in your gallery]*`,
-        footerText: "💙 Elaina 💙",
+        footerText: "💙 𝔼𝕝𝕒𝕚𝕟𝕒 💙",
         buttons: buttons,
         headerType: 4,
         imageMessage: media?.message?.imageMessage,
@@ -304,7 +304,7 @@ export default class MessageHandler {
   };
 
   handleState = async (): Promise<void> => {
-    const text = `Reconnected🚀 (Elaina👾)Prefix #`;
+    const text = `𝙍𝙚𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙🚀 (Elaina👾)Prefix #`;
     await this.client.sendMessage(
       "263716564623-1628429288@g.us",
       text,
