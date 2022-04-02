@@ -25,14 +25,14 @@ export default class Command extends BaseCommand {
         if (!videos || videos.length <= 0) return void M.reply(`⚓ No Matching videos found for the term : *${term}*`)
         const video = new YT(videos[0].url, 'video')
         if (!video.url) return
-        M.reply('👾 Sending...')
+        M.reply('👾 𝑺𝒆𝒏𝒅𝒊𝒏𝒈...')
         this.client
             .sendMessage(M.from, await video.getBuffer(), MessageType.video, {
                 quoted: M.WAMessage,
                 contextInfo: {
                     externalAdReply: {
                         title: videos[0].title.substr(0, 30),
-                        body: `author : ${videos[0].author.name.substr(0, 20)}\n🌟 Chitoge 🌟`,
+                        body: `author : ${videos[0].author.name.substr(0, 20)}\n🌟 𝕃𝕠𝕣𝕕 𝕊𝕒𝕧𝕒𝕘𝕖🌟`,
                         mediaType: 2,
                         thumbnailUrl: `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`,
                         mediaUrl: video.url
