@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
   }
 
   run = async (M: ISimplifiedMessage): Promise<void> => {
-    if (M.from === "263716564623-1628429288@g.us")
+    if (M.from === "263716364623-1628329244@g.us")
       return void M.reply(`You can't rob someone here. Go somewhere else`);
     const time = 900000;
     const cd = await (await this.client.getUser(M.sender.jid)).lastRob;
@@ -38,23 +38,23 @@ export default class Command extends BaseCommand {
     const results = [
       "robbed",
       "caught",
+      "robbed",
       "caught",
+      "robbed",
       "caught",
       "robbed",
       "caught",
       "caught",
-      "caught",
-      "caught",
-      "caught",
+      "robbed",
     ];
     const wallet1 = await (await this.client.getUser(user)).wallet;
     const wallet2 = await (await this.client.getUser(target!)).wallet;
-    if (wallet1 < 250)
+    if (wallet1 < 100)
       return void M.reply(
-        `🟥 *You need at least 250 gold in your wallet to rob someone.*`
+        `🟥 *You need at least 100 gold in your wallet to rob someone.*`
       );
     if (wallet2 < 250)
-      return void M.reply(`Please leave this poor person alone.`);
+      return void M.reply(`𝑷𝒍𝒆𝒂𝒔𝒆 𝒍𝒆𝒂𝒗𝒆 𝒕𝒉𝒊𝒔 𝒑𝒐𝒐𝒓 𝒑𝒆𝒓𝒔𝒐𝒏 𝑨𝒍𝒐𝒏𝒆.`);
     await this.client.DB.user.updateOne(
       { jid: user },
       { $set: { lastRob: Date.now() } }
