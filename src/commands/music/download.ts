@@ -33,14 +33,14 @@ export default class Command extends BaseCommand {
       );
     const audio = new YT(videos[0].url, "audio");
     if (!audio.url) return;
-    M.reply("🍁 sending");
+    M.reply("🚀 𝙎𝙚𝙣𝙙𝙞𝙣𝙜");
     this.client
       .sendMessage(M.from, await audio.getBuffer(), MessageType.audio, {
         quoted: M.WAMessage,
         contextInfo: {
           externalAdReply: {
             title: videos[0].title.substr(0, 30),
-            body: `author : ${videos[0].author.name.substr(0, 20)}\nLord Savage`,
+            body: `author : ${videos[0].author.name.substr(0, 20)}\n𝕃𝕠𝕣𝕕 𝕊𝕒𝕧𝕒𝕘𝕖`,
             mediaType: 2,
             thumbnail: await request.buffer(`https://i.ytimg.com/vi/${audio.id}/hqdefault.jpg`),
             mediaUrl: audio.url,
