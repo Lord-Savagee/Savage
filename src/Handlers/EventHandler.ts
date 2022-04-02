@@ -53,7 +53,7 @@ export default class EventHandler {
       }
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "✞︎☠︎︎ Elaina ✞︎☠︎︎",
+        footerText: "✞︎☠︎︎ 𝔼𝕝𝕒𝕚𝕟𝕒 ✞︎☠︎︎",
         buttons: buttons,
         headerType: 1,
       };
@@ -90,9 +90,9 @@ export default class EventHandler {
 					.map((jid) => `@${jid.split("@")[0]}`)
 					.join(", ")}*`
 			: event.action === "remove"
-			? `Goodbye *@${
+			? `𝑮𝒐𝒐𝒅𝒃𝒚𝒆 *@${
 					event.participants[0].split("@")[0]
-			  }* ✞︎☠︎︎𖣘, please don't come back here again .`
+			  }* ✞︎☠︎︎𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐𝒏'𝒕 𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌 𝒉𝒆𝒓𝒆 𝒂𝒈𝒂𝒊𝒏n .`
 			: `Ara Ara looks like *@${
 					event.participants[0].split("@")[0]
 			  }* got ${this.client.util.capitalize(event.action)}d${
@@ -163,9 +163,9 @@ export default class EventHandler {
         goodbye.toBuffer(),
         MessageType.image,
         {
-          caption: `Goodbye *@${
+          caption: `𝑮𝒐𝒐𝒅𝒃𝒚𝒆 *@${
             event.participants[0].split("@")[0]
-          }* ✞︎☠︎︎, please don't come back here again.`,
+          }* ✞︎☠︎︎, 𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐𝒏'𝒕 𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌 𝒉𝒆𝒓𝒆 𝒂𝒈𝒂𝒊𝒏.`,
           contextInfo,
         }
       ));
