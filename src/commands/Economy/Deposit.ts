@@ -45,9 +45,9 @@ export default class Command extends BaseCommand {
       },
     ];
 
-    if (bank >= 20000000)
+    if (bank >= 50000000)
       return void M.reply(
-        `🟥 *You can't have more than 20000000 gold in your bank*.`
+        `🟥 *You can't have more than 50000000 gold in your bank*.`
       );
     if (wallet < amount)
       return void M.reply(
@@ -56,7 +56,7 @@ export default class Command extends BaseCommand {
     await this.client.deposit(user, amount);
     const buttonMessage: any = {
       contentText: `🎉 You have transferred *${amount} gold* to your bank.`,
-      footerText: "© Elaina 2022",
+      footerText: "© 𝐄𝐥𝐚𝐢𝐧𝐚 2022",
       buttons: buttons,
       headerType: 1,
     };
