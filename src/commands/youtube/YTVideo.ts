@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             Mimetype.jpeg,
             undefined,
-            `🍥 *Title:* ${videoDetails.title}\n🚀 *Channel*: ${v.metadata.channel_name}\n💙*Likes*: ${v.metadata.likes}\n💔*Dislike*: ${v.metadata.dislikes}\n🕰️ *Duration:* ${videoDetails.lengthSeconds}\n🗒️ *Description:* ${videoDetails.description}`
+            `🍥 *Title:* ${videoDetails.title}\n🚀 *Channel*: ${v.metadata.channel_name}\n💙 *Likes*: ${v.metadata.likes}\n💔 *Dislike*: ${v.metadata.dislikes}\n🕰️ *Duration:* ${videoDetails.lengthSeconds}\n🗒️ *Description:* ${videoDetails.description}`
         )
         if (Number(videoDetails.lengthSeconds) > 1800)
             return void M.reply('👾Cannot Download videos longer than 30 minutes')
