@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
             `🍥 *Title:* ${videoDetails.title}\n🕰️ *Duration:* ${videoDetails.lengthSeconds}\n🗒️ *Description:* ${videoDetails.description}`
         )
         if (Number(videoDetails.lengthSeconds) > 1800)
-            return void M.reply('👾Cannot Download videos longer than 30 minutes')
+            return void M.reply('🧭🚀Cannot Download videos longer than 30 minutes')
         M.reply(await video.getBuffer(), MessageType.video).catch(() => M.reply('An error occured...'))
     }
 }
