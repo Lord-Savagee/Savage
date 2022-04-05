@@ -67,8 +67,8 @@ export default class Command extends BaseCommand {
     const text = `Character trade started\n\nOffer: ${gallery[i].name} (From ${gallery[i].source})\n\nFor: ${chara.name} (From ${source[0].anime.title})`;
     const buttonMessage: any = {
       contentText: `${text}`,
-      footerText: "© 𝖠𝗌𝗎𝗇𝖺 2022",
-      buttons: buttons,
+      footerText: "© Elaina 2022",
+      buttons: buttons, 
       headerType: 1,
     };
     await this.client.DB.group.updateMany(
