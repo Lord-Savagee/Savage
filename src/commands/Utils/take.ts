@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         if (!buffer) return void M.reply(`You didn't provide any sticker to convert`)
         const filename = `${tmpdir()}/${Math.random().toString(36)}`
         const sticker:any = await  new Sticker(buffer, {
-            pack: pack[1] || '🌟 Elaina', 
+            pack: pack[1] || 'Im not blashing Baka!', 
             author: pack[2] || ' Lord Savage 🕊️', 
             quality: 50 
         }).build();
