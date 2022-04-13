@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
     try {
       pfp = await this.client.getProfilePicture(user);
     } catch (err) {
-      M.reply(`Profile Picture not Accessible of ${username}must be ugly probably`);
+      M.reply(`Profile Picture not Accessible of ${username}must be ugly probably 😹`);
       pfp = "https://telegra.ph/file/de72ea1903c646b4d4935.jpg";
     }
     const exp = (await this.client.getUser(user)).Xp;
@@ -66,7 +66,7 @@ export default class Command extends BaseCommand {
     } else if (exp < 175000) {
       role = "🎃 Pumpkin";
     } else {
-      role = "❄️ DEMON KING";
+      role = "💀 DEMON KING";
     }
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let level: number;
@@ -106,11 +106,11 @@ export default class Command extends BaseCommand {
       MessageType.image,
       undefined,
       undefined,
-      `🏮 *Username: ${username}*\n\n🎗️ *About: ${
+      `🏮 *Username: ${username}*\n\n📖 *Bio: ${
         (await this.client.getStatus(user)).status || "None"
-      }*\n\n❤ *Haigusha: ${haigusha}*\n\n〽️ *Level: ${level}*\n\n⭐ *Exp: ${
+      }*\n\n❤ *Haigusha: ${haigusha}*\n\n🔰 *Level: ${level}*\n\n⭐ *Exp: ${
         exp || 0
-      }*\n\n💫 *Role: ${role}*\n\n🍀 *Quiz Points: ${
+      }*\n\n💫 *Role: ${role}*\n\n📊 *Quiz Points: ${
         (
           await this.client.getUser(user)
         ).quizPoints
@@ -122,7 +122,7 @@ export default class Command extends BaseCommand {
         ).gallery.length
       }*\n\n👑 *Admin: ${
         M.groupMetadata?.admins?.includes(user) || false
-      }*\n\n✖ *Ban: ${(await this.client.getUser(user)).ban || false}*`
+      }*\n\n🟥 *Ban: ${(await this.client.getUser(user)).ban || false}*`
     );
   };
 }
