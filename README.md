@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/11e741582367e0d63c66f.jpg' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62169991d23e711584403'><img src='https://telegra.ph/file/b859fd360cd90f7e843d4.jpg' type='image'></a>
 
 
 
