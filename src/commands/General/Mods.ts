@@ -27,7 +27,9 @@ export default class Command extends BaseCommand {
           user.notify || user.vname || user.name || "null"
         }*\n🦋 *Contact: https://wa.me/+${user?.jid?.split("@")[0]}*\n\n`)
     );
-    text += `\n ❤️ Elaina 💙`;
+    text += `\n  ━━━━°❀•°:🤍 *Tokisaki Kurumi* 🤍:°•❀°━━━━
+
+©Aku 2022`;
     return void M.reply(text);
   };
 }
