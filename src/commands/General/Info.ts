@@ -49,9 +49,9 @@ export default class Command extends BaseCommand {
 				{
 					quoted: M.WAMessage,
 					mimetype: Mimetype.gif,
-					caption: `━━━❰ 🍭 *Elaina* 🍭 ❱━━━\n\n🔮 *Groups: ${
+					caption: `❖┈ᕮ✧🌺 *Elaina* 🌺 ✧ᕭ┈❖\n\n🎏 *Groups: ${
 				chats.length
-					}\n\n🚦 *Uptime: ${uptime()}*\n\n🦆 *My cute people: ${users}*\n\n\n💢 *Banned Users: ${uban}*\n\n\n`,
+					}\n\n🕒 *Uptime: ${uptime()}*\n\n😌 *My cute people: ${users}*\n\n\n🟥 *Banned Users: ${uban}*\n\n\n`,
 				}
 			);
 		};
