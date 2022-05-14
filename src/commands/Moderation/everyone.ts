@@ -55,7 +55,7 @@ export default class Command extends BaseCommand {
       return void (await M.reply(
         `*🎀 Group: ${M.groupMetadata?.subject}*\n🎏 *Members: ${
           members.length
-        }*\n📢 *Announcer: @${M.sender.jid.split("@")[0]}*\n🧧 *Tags: HIDDEN*`,
+        }*\n📢 *Announced by: @${M.sender.jid.split("@")[0]}*\n🧧 *Tags: HIDDEN*`,
         undefined,
         undefined,
         M.groupMetadata?.participants.map((user) => user.jid)
@@ -93,7 +93,7 @@ export default class Command extends BaseCommand {
       }
       let text = `*🎀 Group: ${M.groupMetadata?.subject}*\n🎏 *Members: ${
         members.length
-      }*\n📢 *Announcer: @${M.sender.jid.split("@")[0]}*\n🧧 *Tags:*`;
+      }*\n📢 *Announced by: @${M.sender.jid.split("@")[0]}*\n🧧 *Tags:*`;
       if (metadata.mods.length > 0) {
         for (const Mods of metadata.mods) {
           text += `\n🏅 *@${Mods.split("@")[0]}*`;
