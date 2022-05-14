@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
         await axios.get(`https://ipapi.co/${term}/json/`)
         .then((response) => {
                 // console.log(response);
-                const text = `Info of IP- *${term}* is \n *IP:* ${response.data.ip} \n *Version:* ${response.data.version} \n *City:* ${response.data.city} \n *Region:* ${response.data.region} \n *Country:* ${response.data.country_name} \n *latitude:* ${response.data.latitude} \n  *longitude:* ${response.data.longitude} \n *timezone:* ${response.data.timezone} \n *languages:* ${response.data.languages} \n *asn:* ${response.data.asn} \n *org:* ${response.data.org} `
+                const text = `📊Info of IP- *${term}* is \n *🚦IP:* ${response.data.ip} \n *🛡️Version:* ${response.data.version} \n *🌍City:* ${response.data.city} \n *🌏Region:* ${response.data.region} \n *🌒Country:* ${response.data.country_name} \n *⭐latitude:* ${response.data.latitude} \n  *🎏longitude:* ${response.data.longitude} \n *🕒timezone:* ${response.data.timezone} \n *📈languages:* ${response.data.languages} \n *asn:* ${response.data.asn} \n *org:* ${response.data.org} `
                 M.reply(text);
             })
             .catch(err => {
