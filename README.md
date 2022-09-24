@@ -4,7 +4,7 @@
 
 
 
-# **🅴🅻🅰🅸🅽🅰: A WhatsApp BOT WITH RICH CREATION FEATURES**
+# **🅴🅻🅰🅸🅽🅰: A WhatsApp BOT Created by Lord Savage **
 
 
 
