@@ -47,7 +47,7 @@ export default class Command extends BaseCommand {
 📮 *Q6:* Where can I find Elaina bot?
 📑 *A:* Elaina is one of the bots owned by *Lord Savage 🕊️* group. Incase you need other bots, use the command *!support* & you will get support group link in your DM.
 ᚖ ────── ✪ ────── ᚖ
-📮 *Q7:* Can you hire a bot from *Lord Savage 🕊️?*
+📮 *Q7:* Can you hire a bot from *Lord Savage🕊️?*
 📑 *A:* Based on the copyrights, we don't hire bots to anyone thus the bots are free to use.
 ᚖ ────── ✪ ────── ᚖ
 
